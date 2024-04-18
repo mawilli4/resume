@@ -1,0 +1,370 @@
+.light-background {
+  background-color: #F5EFE7;
+}
+
+.light-font {
+  color: #F5EFE7;
+}
+
+.dark-background {
+  background-color: #1D394F;
+}
+
+.dark-font {
+  color: #1D394F;
+}
+
+.link-dark {
+  color: #0B5A9C;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.link-light {
+  color: #C2D7E8;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.hover:hover {
+  color: #0B5A9C;
+  font-weight: 800;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.main-heading-strip {
+  background-color: #0B5A9C;
+  height: 3.75rem;
+}
+
+.main-heading-stripe {
+  background-color: #1D394F;
+  color: #F5EFE7;
+  text-align: center;
+  padding: 2.5rem 0 4rem 0;
+}
+
+.name {
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.contact {
+  font-size: 1.375rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*  Photo  */
+
+.photo-location {
+  position: absolute;
+  padding: 0 0 0 4%;
+  top: 80px;
+}
+
+.photo-size {
+    width: 17%;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+
+.section-header-font {
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 2rem 5%;
+}
+
+.section-header-strip {
+  background-color: #0B5A9C;
+  height: 2rem;
+}
+
+.section-body {
+  padding: 1rem 0 1rem 0;
+}
+
+.box {
+  padding: 2% 2% 2% 2%;
+  margin: 2% 0;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.row-padding {
+  padding: 4% 5%;
+}
+
+.section-body-heading {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.section-body-text {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+}
+
+.section-body-text1 {
+  color: #526D82;
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+}
+
+.section-body-text2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+}
+
+.section-body-link {
+  color: #526D82;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.skills-body-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 4rem 5%;
+}
+
+.exp-body-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 0 5%;
+}
+
+table {
+  width: 95%;
+}
+
+.table-body {
+padding: 5% 0% 2% 5%;
+}
+
+.td-edu {
+padding: 0 0 5% 0;
+vertical-align: top;
+}
+
+.table-body-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.table-body-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #0B5A9C;
+  height: 3.75rem;
+}
+
+.footer-pad {
+  padding: 0 10%;
+}
+
+.footer-text {
+  text-align: center;
+  padding: 1rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*  Medium Screen */
+
+@media screen and (max-width: 1250px) {
+.name {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+.contact {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+/*  Photo  */
+
+.photo-location {
+  position: absolute;
+  padding: 0 0 0 4%;
+  top: 100px;
+}
+
+.photo-size {
+    width: 17%;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+
+.section-header-font {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.section-header-strip {
+  height: 2rem;
+}
+
+.section-body-heading {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.section-body-text {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 2.5;
+}
+
+.section-body-text1 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 2.5;
+}
+
+.section-body-text2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 2.5;
+}
+
+.section-body-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+}
+
+.skills-body-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.exp-body-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.table-body-heading {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.table-body-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.footer {
+  height: 3.75rem;
+}
+
+.footer-text {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.footer-pad {
+  padding: 1% 5% 0 8%;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+.photo-location {
+  position: static;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0 0 5% 0;
+  top: 80px;
+}
+
+.photo-size {
+    width: 100%;
+}
+
+.profile-photo {
+    width: 40%;
+    height: auto;
+}
+
+.footer {
+  height: 3.75rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-text {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.footer-pad {
+  padding: 1% 0 0 3%;
+}
+}
+
+
+
+
